@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fibonacci series</title>
+</head>
+<body>
+    <script>
+        var number,n1 = 0,n2 = 1,x;
+        number = parseInt(prompt("Enter the number of terms: "));
+        n1 = 0, n2 = 1, x;
+
+document.write("Fibonacci Series of :" + number + "<br>");
+
+for (let i = 1; i <= number; i++) {
+    document.write(n1 + ",");
+    x = n1 + n2;
+    n1 = n2;
+    n2 = x;
+}
+    
+    </script>
+    
+</body>
+</html>
