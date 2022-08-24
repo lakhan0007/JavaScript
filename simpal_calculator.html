@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simpal Calculator</title>
+</head>
+<body>
+    <script>
+        var a,b,x,c;0
+        a = parseInt(prompt("Enter first number: "));
+        x = prompt('Enter operator ( +, -, * or / ): ');
+        b = parseInt(prompt("Enter second number: "));
+
+
+    if (x == '+') {
+        c = a + b;
+    }
+    else if (x == '-') {
+        c = a - b;
+    }
+    else if (x == '*') {
+        c = a * b;
+    }
+    else {
+        c = a / b;
+    }
+        document.write( a + x + b + "=" + c)
+    </script>
+    
+</body>
+</html>
