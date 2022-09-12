@@ -13,18 +13,18 @@ body{
     align-items: center;
 }
 
-.hax-colors{
+.hex-colors{
     border: 1px solid black;
     text-align: center;
 }
 
-.hax-colors h1{
+.hex-colors h1{
     font-size: 1rem;
     text-transform: uppercase;
     animation: colorchange 5s infinite alternate;
 }
 
-.hax-colors h2{
+.hex-colors h2{
     border: 1px solid black;
     font-size: 1rem;
     margin-top: 15%;
@@ -52,11 +52,25 @@ body{
 }
 
 @media( max-width:480px){
-    .hax-colors h1{
+    .hex-colors h1{
         font-size: 1rem;
     }
 
-    .hax-colors h2{
+    .hex-colors h2{
         font-size: 1rem;
     }
+}
+.btn{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: aqua 3px 3px 5px;
+}
+.btn:hover{
+ background-color: rgba(120, 16, 16, 0.5)
+
 }
