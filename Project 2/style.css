@@ -21,6 +21,7 @@ body{
 .hax-colors h1{
     font-size: 1rem;
     text-transform: uppercase;
+    animation: colorchange 5s infinite alternate;
 }
 
 .hax-colors h2{
@@ -46,7 +47,7 @@ body{
         color: violet;
     }
     100%{
-        color: lightgray;
+        color: indigo;
     }
 }
 
