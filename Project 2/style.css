@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+body{
+    font-family: 'Combo', cursive; 
+}
+
+.container {
+    border: 1px solid black;
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hax-colors{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.hax-colors h1{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.hax-colors h2{
+    border: 1px solid black;
+    font-size: 1rem;
+    margin-top: 15%;
+}
+
+@keyframes colorchange {
+    0%{
+        color: Tomato;
+    }
+    20%{
+        color: orange;
+    }
+    40%{
+        color: mediumseagreen;
+    }
+    60%{
+        color: slateblue;
+    }
+    80%{
+        color: violet;
+    }
+    100%{
+        color: lightgray;
+    }
+}
+
+@media( max-width:480px){
+    .hax-colors h1{
+        font-size: 1rem;
+    }
+
+    .hax-colors h2{
+        font-size: 1rem;
+    }
+}
