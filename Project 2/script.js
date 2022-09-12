@@ -5,7 +5,7 @@ function changecolor() {
     var code = '';
     
     for(var i = 0; i < 6; i++){
-        var random_index = math.floor(math.random() * hex_numbers.length);
+        var random_index = Math.floor(Math.random() * hex_numbers.length);
         console.log(random_index);
         code += hex_numbers[random_index];
     }
