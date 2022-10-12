@@ -7,7 +7,7 @@ function changecolor() {
     for(var i = 0; i < 6; i++){
         var random_index = Math.floor(Math.random() * hex_numbers.length);
         console.log(random_index);
-        code += hex_numbers[random_index];
+        code += hex_numbers[random_index];0
     }
  
     
