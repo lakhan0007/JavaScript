@@ -5,7 +5,7 @@
         for (let x = 1; x <=6; x++){
         let bulb = document.getElementById('lightId'.concat(x));
                     
-                        if(bulb.scroll.match('lightoff')){
+                        if(bulb.scr.match('lightoff')){
                             bulb.src = "lighton.png";
                             bulbOn.innerHTML = "Light ON";
                             bulbOn.style.color = "red";
@@ -13,7 +13,7 @@
                         }else{
                             bulb.src = "lightoff.png";
                             bulbOn.innerHTML = "Light OFF";
-                            bulbMain.style.Background = "white";
+                            bulbMain.style.background = "white";
                             bulbOn.style.color = "black";
                         }
      }
