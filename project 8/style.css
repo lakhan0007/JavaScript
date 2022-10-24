@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient(#B7C4CF,#25316D);
+    overflow: hidden;
+}
+.container{
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    
+}
