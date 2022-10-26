@@ -1,7 +1,7 @@
 const amount = document.getElementById('amount');
 const guests = document.getElementById('guests');
 const quality = document.getElementById('quality');
-const tipAmount = document.getElementById('tipAmount');
+const tipAmount = document.getElementById('tip-amount');
 
 
 calculate = () => {
