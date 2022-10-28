@@ -17,23 +17,23 @@ addItem = (input) => {
     const div = document.createElement("div");
     const checkIcon = document.createElement("i");
     const trashIcon = document.createElement('i');
-    const text = document.createElement("p")
+    const text = document.createElement('p')
 
     item.className = "item";
     text.textContent = input;
 
     checkIcon.className = "fas fa-check-square";
-    checkIcon.ctyle.color = "lightgray";
+    checkIcon.style.color = "lightgray";
     checkIcon.addEventListener("click", () => {
         checkIcon.style.color = "limegreen";
     })
 
-    div.appendChild(CheckIcon);
+    div.appendChild(checkIcon);
 
     trashIcon.className = "fas fa-trash";
     trashIcon.style.color = "darkgray";
     trashIcon.addEventListener("click", () => {
-        item.removeChild();
+        item.remove();
     })
 
     div.appendChild(trashIcon);

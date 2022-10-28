@@ -20,7 +20,7 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-wrap: center;
-    min-width: 70px;
+    min-height: 70px;
     padding: 0 20px;
 }
 
