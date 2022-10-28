@@ -23,13 +23,13 @@ startTimer = () => {
     if (timeBegan === null)
         timeBegan = new Date();
 
-    if (timeStarted !== null)
+    if (timeStopped !== null)
     stoppedDuration += (new Date() - timeStopped);
 
     startInterval = setInterval(clockRunning, 10);
 }
 
-startTimer = () => {
+stopTimer = () => {
     timeStopped = new Date();
     clearInterval(startInterval);
 }
@@ -42,7 +42,7 @@ clockRunning = () => {
     let seconds = timeElapsed.getUTCSeconds();
     let milliseconds = timeElapsed.getUTCMilliseconds();
 
-    milliseconds = math.floor(milliseconds / 10);
+    milliseconds = Math.floor(milliseconds / 10);
 
     document.querySelector('#timer_display').textContent = 
     (minutes = minutes < 10 ? '0' + minutes : minutes) + ":" +
