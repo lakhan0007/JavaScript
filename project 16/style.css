@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'bungee spice';
+    background: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+header{
+    border-bottom: 5px solid rgb(141, 120, 3);
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 80px;
+    padding: 0 20px;
+}
+
+#header h2{
+    font-size: 2rem;
+}
+
+#search_box
